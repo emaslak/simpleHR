@@ -11,7 +11,9 @@ This is a small HR system, which allows you to add/remove/edit employees, calcul
 1. Clone repository
 2. Navigate through commandline to project root directory
 3. `composer install`
-4. `php artisan migrate`
-5. `php artisan db:seed` (for dummy data)
-6. `php -S {host}:{port} -t public/` 
-7. Navigate to `http://{host}:{port}` in your browser :)
+4. Create mysql database for the project
+5. Rename `.env.example` file to `.env` and set appropriate configuration
+6. `php artisan migrate`
+7. `php artisan db:seed` (for dummy data)
+8. `php -S {host}:{port} -t public/`
+9. Navigate to `http://{host}:{port}` in your browser :)
